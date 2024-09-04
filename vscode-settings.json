@@ -1,67 +1,41 @@
 {
-  "window.commandCenter": false,
-  "window.newWindowDimensions": "inherit",
-  "window.autoDetectColorScheme": true,
-  "explorer.compactFolders": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.layoutControl.enabled": false,
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.location": "hidden",
-  "workbench.sideBar.location": "right",
-  "workbench.preferredLightColorTheme": "Paper Owl Light (No Italics)",
-  "workbench.preferredDarkColorTheme": "Paper Owl (No Italics)",
-  "editor.fontFamily": "'JetBrains Mono', monospace",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 1.8,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "block",
-  "editor.rulers": [
-      80,
-      120
-  ],
-  "editor.stickyScroll.enabled": false,
-  "editor.parameterHints.enabled": false,
-  "editor.renderLineHighlight": "gutter",
-  "editor.suggestSelection": "first",
-  "editor.semanticHighlighting.enabled": false,
-  "editor.tabSize": 2,
-  "editor.minimap.enabled": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.copyWithSyntaxHighlighting": false,
-  "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.lineHeight": 1.385,
-  "terminal.integrated.gpuAcceleration": "on",
-  "breadcrumbs.enabled": false,
-  "apc.electron": {
-      "titleBarStyle": "hiddenInset",
-      "trafficLightPosition": {
-          "x": 11,
-          "y": 10
-      },
-      "opacity": 1,
-      "vibrancy": "dark",
-      "frame": false
-  },
-  "apc.header": {
-      "height": 36
-  },
-  "apc.listRow": {
-      "height": 24
-  },
-  "apc.font.family": "'JetBrains Mono', monospace",
-  "apc.stylesheet": {
-      ".title-label > h2": "display: none",
-      ".editor-actions": "display: none",
-      ".nosidebar .inline-tabs-placeholder": "width: 75px",
-      ".pane-header": "padding: 0 8px",
-      ".pane-body": "padding: 8px",
-      ".split-view-view:first-child .pane-header": "display: none !important;",
-      ".monaco-list-row": "border-radius: 4px;",
-      ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
-  "rubyLsp.enableExperimentalFeatures": true,
-  "rubyLsp.formatter": "auto",
+    "window.commandCenter": false,
+    "window.autoDetectColorScheme": true,
+    "explorer.compactFolders": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.preferredLightColorTheme": "Paper Owl Light (No Italics)",
+    "workbench.preferredDarkColorTheme": "Paper Owl (No Italics)",
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.8,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.stickyScroll.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.suggestSelection": "first",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.385,
+    "terminal.integrated.gpuAcceleration": "on",
+    "breadcrumbs.enabled": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "rubyLsp.enableExperimentalFeatures": false,
 }
