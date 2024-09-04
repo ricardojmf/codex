@@ -31,11 +31,4 @@
     "terminal.integrated.lineHeight": 1.385,
     "terminal.integrated.gpuAcceleration": "on",
     "breadcrumbs.enabled": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "rubyLsp.enableExperimentalFeatures": false,
 }
